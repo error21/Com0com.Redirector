@@ -31,5 +31,14 @@ namespace Com0com.Redirector.Properties {
                 return ((string)(this["PortsDBLocation"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Program Files (x86)\\com0com\\hub4com.exe")]
+        public string Hub4ComPath {
+            get {
+                return ((string)(this["Hub4ComPath"]));
+            }
+        }
     }
 }
